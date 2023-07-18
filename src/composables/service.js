@@ -13,6 +13,7 @@ export default function useService() {
     await httpClicent.get('courses').then((resp) => {
       if(resp.status){
         services.value = resp.data.data
+        console.log(services.value)
         return services
       }
     }).catch((err) => {

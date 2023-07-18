@@ -37,14 +37,12 @@ recentCategories(); // recuperation des categories recentes
             </div>
           </div>
         </div>
-
          <div class="container-xl">
-          <!-- Page title -->
           <div class="page-header d-print-none">
             <div class="row g-2 align-items-center">
               <div class="col">
                 <h2 class="page-title">
-                  Les meilleurs prestations
+                  Les meilleures prestations
                 </h2>
               </div>
             </div>

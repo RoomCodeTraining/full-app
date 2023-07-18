@@ -4,7 +4,7 @@ import  { useUserStore }  from "../stores/user";
 /*
 * Axios instance
 */
-const baseURL = "http://e-api.ddev.site/api/";
+const baseURL = "https://api.roomcodetraining.com/api";
 
 const httpClicent = axios.create({
   baseURL: baseURL,
